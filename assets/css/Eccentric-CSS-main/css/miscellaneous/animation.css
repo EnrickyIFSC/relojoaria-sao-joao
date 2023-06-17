@@ -1,3 +1,23 @@
+.transition-0p0 {
+  transition: 0;
+}
+
+.transition-0p3 {
+  transition-duration: 0.3s;
+}
+
+.transition-0p5 {
+  transition-duration: 0.5s;
+}
+
+.transition-0p7 {
+  transition-duration: 0.7s;
+}
+
+.transition-0p9 {
+  transition-duration: 0.9s;
+}
+
 .no-animation:hover {
   animation: none;
 }
