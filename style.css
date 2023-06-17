@@ -4,3 +4,21 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face { 
+  font-family: canteburry; src: url("assets/fonts/Canterbury.ttf"); 
+}
+
+@font-face { 
+  font-family: "Century Schoolbook"; src: url("assets/fonts/century-schoolbook-7.ttf"); 
+}
+
+.century {
+  font-family:  "Century Schoolbook", "Century Gothic", CenturyGothic, AppleGothic,sans-serif; 
+}
+
+.old-font {
+  font-family: canteburry;
+  font-size: 100px;
+  font-weight: 100;
+}
