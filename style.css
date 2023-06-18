@@ -24,3 +24,7 @@ body {
   font-size: 100px;
   font-weight: 100;
 }
+
+header div, header nav {
+  background-image: url("./assets/images/dark-wood.png");
+}
