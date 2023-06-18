@@ -2,6 +2,10 @@
   border-color: transparent;
 }
 
+.border-brown {
+  border-color: var(--brown);
+}
+
 .border-yellow {
   border-color: var(--yellow);
 }
@@ -455,6 +459,11 @@
 
 .border-black-11 {
   border-color: var(--black-shade-11);
+}
+
+.border-brown-active:hover,
+.border-brown-active:active {
+  border-color: var(--brown);
 }
 
 .border-yellow-active:hover,
