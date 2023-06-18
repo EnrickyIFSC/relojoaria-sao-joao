@@ -28,3 +28,7 @@ body {
 header div, header nav {
   background-image: url("./assets/images/dark-wood.png");
 }
+
+.price::before {
+  content: "R$  ";
+}
