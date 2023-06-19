@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -29,6 +29,19 @@ header div, header nav {
   background-image: url("./assets/images/dark-wood.png");
 }
 
+.price {
+  display: block;
+}
+
 .price::before {
   content: "R$  ";
+}
+
+.produto {
+  border: 2px solid rgba(177, 177, 177, 0.7);
+  height: 420px;
+}
+
+.produto img {
+  padding: 20px;
 }
