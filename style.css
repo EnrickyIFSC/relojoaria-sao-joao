@@ -25,7 +25,9 @@ body {
   font-weight: 100;
 }
 
-header div, header nav, footer {
+header div,
+header nav,
+footer {
   background-image: url("./assets/images/dark-wood.png");
 }
 
@@ -44,4 +46,8 @@ header div, header nav, footer {
 
 .produto img {
   padding: 20px;
+}
+
+.right {
+  right: 0;
 }
