@@ -29,6 +29,9 @@
 
     <link rel="stylesheet" href="assets/css/Eccentric-CSS-main/css/display/flex.css">
 
+    <link rel="stylesheet" href="assets/css/Eccentric-CSS-main/css/textTag/button.css">
+    <link rel="stylesheet" href="assets/css/Eccentric-CSS-main/css/textTag/radius.css">
+
 </head>
 
 <body class="container">
@@ -39,29 +42,34 @@
                 <span class="century font-s">RELOJOARIA E ÓTICA</span>
                 <span class="old-font yellow-5 font-mega time-1s Aflip-reverse">São João</span>
             </h1>
+            <button id="burger-button"
+                class="fixed-left button-m borderless radius-5 font-xxxl p-10 white bg-black-3">&#9776;</button>
         </div>
-        <nav class="bg-brown py-10">
-            <ul class="flex-center px-20-inheritance font-m">
-                <li class="border-b-m border-transparent border-white-2-active transition-0p7">
+        <nav id="main-menu" class="bg-brown py-10">
+            <div class="w100">
+                <button id="close-button"
+                    class="font-xxxl button-box bg-black-4 w100 white borderless pointer">X</button>
+            </div>
+            <ul class="flex-center px-20-inheritance py-20-inheritance py-0-m-inheritance font-m">
+                <li class="border-l-l-s border-b-l-m border-transparent border-white-2-active transition-0p7">
                     <a class="white-2 transition-0p0" href="index.html">Início</a>
                 </li>
-                <li class="border-b-m border-transparent border-white-2-active transition-0p7">
+                <li class="border-l-l-s border-b-l-m border-transparent border-white-2-active transition-0p7">
                     <a class="white-2 transition-0p0" href="joias.html">Jóias</a>
                 </li>
-                <li class="border-b-m border-transparent border-white-2-active transition-0p7">
+                <li class="border-l-l-s border-b-l-m border-transparent border-white-2-active transition-0p7">
                     <a class="white-2 transition-0p0" href="relogios.html">Relógios</a>
                 </li>
-                <li class="border-b-m border-transparent border-white-2-active transition-0p7">
+                <li class="border-l-l-s border-b-l-m border-transparent border-white-2-active transition-0p7">
                     <a class="white-2 transition-0p0" href="oculos.html">Óculos</a>
                 </li>
-                <li class="border-b-m border-transparent border-white-2-active transition-0p7">
-                    <a class="white-2 transition-0p0" href="trofeus.html">Troféus e
-                        Medalhas</a>
+                <li class="border-l-l-s border-b-l-m border-transparent border-white-2-active transition-0p7">
+                    <a class="white-2 transition-0p0" href="trofeus.html">Troféus e Medalhas</a>
                 </li>
-                <li class="border-b-m border-transparent border-white-2-active transition-0p7">
+                <li class="border-l-l-s border-b-l-m border-transparent border-white-2-active transition-0p7">
                     <a class="white-2 transition-0p0" href="decoracoes.html">Decorações</a>
                 </li>
-                <li class="border-b-m border-transparent border-white-2-active transition-0p7">
+                <li class="border-l-l-s border-b-l-m border-transparent border-white-2-active transition-0p7">
                     <a class="white-2 transition-0p0" href="sobre.html">Sobre</a>
                 </li>
             </ul>
@@ -89,6 +97,7 @@
         </address>
     </footer>
     <script src="assets/css/Eccentric-CSS-main/js/miscellaneous/gradient.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
