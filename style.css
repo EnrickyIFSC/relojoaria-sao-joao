@@ -60,3 +60,7 @@ footer {
   cursor: zoom-in;
 }
 
+#categorias a:hover img {
+  background-color: rgb(247, 247, 247);
+  transition: ease-in-out 0.2s;
+}
