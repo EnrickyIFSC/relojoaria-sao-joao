@@ -52,6 +52,45 @@ footer {
   right: 0;
 }
 
+#burger-button {
+  display: none;
+}
+
+#close-button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #main-menu {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #333;
+    padding: 20px;
+  }
+
+  #main-menu.show {
+    display: block;
+  }
+
+  #main-menu>ul {
+    display: block;
+  }
+
+  #burger-button {
+    display: block;
+
+  }
+
+  #close-button {
+    display: block;
+  }
+
+}
+
 .box-imagem-produto {
   overflow: hidden;
 }

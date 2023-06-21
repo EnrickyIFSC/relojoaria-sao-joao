@@ -57,6 +57,11 @@
 }
 
 
+.menu-toggle-open-m,
+.menu-toggle-close-m {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
 
   /* largura da tela entre 481px e 767px */
