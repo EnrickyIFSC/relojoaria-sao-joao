@@ -90,3 +90,11 @@ footer {
   }
 
 }
+
+.box-imagem-produto {
+  overflow: hidden;
+}
+
+.box-imagem-produto img:hover {
+  cursor: zoom-in;
+}
