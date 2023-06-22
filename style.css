@@ -27,7 +27,7 @@ body {
 
 header div,
 header nav,
-footer {
+footer, #burger-button {
   background-image: url("./assets/images/dark-wood.png");
 }
 
