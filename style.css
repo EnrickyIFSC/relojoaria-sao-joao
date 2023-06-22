@@ -82,6 +82,8 @@ footer {
 
   #burger-button {
     display: block;
+    right: 10px;
+    position: absolute;
 
   }
 
