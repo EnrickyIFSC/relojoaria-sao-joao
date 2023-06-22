@@ -62,6 +62,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   #main-menu {
+    z-index: 1;
     display: none;
     position: fixed;
     left: 0;
