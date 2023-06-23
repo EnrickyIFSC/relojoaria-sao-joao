@@ -30,6 +30,10 @@ body {
   font-weight: 100;
 }
 
+article p {
+  text-indent: 40px;
+}
+
 header > div,
 header nav,
 footer {
